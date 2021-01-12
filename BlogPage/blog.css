@@ -8,6 +8,10 @@ body {
   max-width: 700px;
 }
 
+img{
+  height: 400px;
+}
+
 .post {
   margin-bottom: 20px;
 }
