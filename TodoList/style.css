@@ -1,0 +1,89 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to right, #adb5bd , #495057);
+}
+
+#addTaskBtn{
+    font-size: 1.5rem;
+    background: none;
+    text-decoration: none;
+    border: none;
+    /* color: white; */
+}
+
+
+nav{
+    font-size: 1.2rem;
+    height: 40px;
+    background-color: #212529;
+    color:white;
+}
+nav span{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+nav span i{
+    margin-right: 15px;
+}
+
+
+#inputDiv{
+    margin:40px auto;
+    /* border:2px solid black; */
+    width: 60%;
+    text-align: center;
+    width: 60%;
+}
+
+#inputTask{
+    width: 60%;
+    padding: 5px;
+    box-shadow: 1px -1px 3px rgba(0,0,0,0.7);
+}
+
+ul{
+    margin: 0px auto;
+    width: 50%;
+    list-style: none;
+}
+
+li{
+    padding-top:5px; 
+    height: 30px;
+    margin: 5px 0px;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.7);
+    /* border: 1px solid green; */
+    box-shadow: 1px 2px 1px rgba(0,0,0,0.7),-1px 2px 3px rgba(0,0,0,0.7);
+}
+
+li:nth-of-type(1n+1){
+    background-color: #e76f51;
+}
+
+
+li:nth-of-type(2n+1){
+    background-color: #2a9d8f;
+}
+
+li:nth-of-type(3n+1){
+    background-color: #e9c46a;
+}
+li:nth-of-type(5n+1){
+    background-color: #457b9d;
+}
+
+
+button{
+    margin-left: 15px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background: none;
+    /* background-color: white; */
+}
+
+li button:nth-of-type(3){
+    margin-right: 20px;
+}
+
